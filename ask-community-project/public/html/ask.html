@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/ask.css" />
+    <title>Home_ask</title>
+  </head>
+  <body>
+    <nav class="container-navbar">
+      <ul class="flex-content-nav">
+        <li class="chill-ul"><a class="none" href="#">Hỏi.MịeĐê!</a></li>
+        <li class="chill-ul"><a class="none" href="/ask">Hỏi nhanh</a></li>
+        <li class="chill-ul"><a class="none" href="/">Đáp gọn</a></li>
+      </ul>
+    </nav>
+    <section class="main-content">
+      <h1 class="text-title">
+        Hãy hỏi cộng đồng một câu hỏi đúng/sai hoặc có/không
+      </h1>
+      <div class="container">
+        <div class="row">
+          <div class="ask-area">
+            <form class="main-form" method="post">
+              <textarea
+                class="question-content resizable"
+                name="content"
+                id="ask-question"
+                cols="150"
+                rows="15"
+                maxlength="200"
+              ></textarea>
+              <div class="note-from">
+                Ký tự còn lại
+                <p id="letter"></p>
+                /200
+              </div>
+              <br />
+              <input class="input-sb" type="submit" value="Gửi" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="/js/ask.js"></script>
+  </body>
+</html>

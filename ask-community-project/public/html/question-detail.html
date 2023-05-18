@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/question-detail.css" />
+    <title>Home_Question</title>
+  </head>
+  <body>
+    <nav class="container-navbar">
+      <ul class="flex-content-nav">
+        <li class="chill-ul"><a class="none" href="#">Hỏi.MịeĐê!</a></li>
+        <li class="chill-ul"><a class="none" href="/ask">Hỏi nhanh</a></li>
+        <li class="chill-ul"><a class="none" href="/">Đáp gọn</a></li>
+      </ul>
+    </nav>
+
+    <div class="main-content">
+      <div class="question-content"></div>
+      <div class="vote"><span id="vote-number"></span> vote</div>
+      <div class="rate-bar">
+        <div class="dislike"></div>
+        <div class="like"></div>
+      </div>
+      <div class="btn">
+        <button id="btn" onclick="handleClick()">Xem câu hỏi khác</button>
+      </div>
+    </div>
+    <script src="/js/question-detail.js"></script>
+  </body>
+</html>

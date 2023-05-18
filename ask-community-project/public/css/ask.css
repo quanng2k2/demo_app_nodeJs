@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-navbar {
+  display: flex;
+  background-color: rgba(8, 8, 8, 0.9);
+  height: 60px;
+}
+
+.flex-content-nav {
+  display: flex;
+  align-items: center;
+}
+
+.chill-ul {
+  padding: 20px;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.none {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 600;
+}
+
+.text-title {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.main-form {
+  height: 40px;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 30px;
+}
+
+.note-from {
+  font-size: 25px;
+}
+
+.input-sb {
+  width: 80px;
+  height: 40px;
+  font-size: 20px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.question-content {
+  padding: 10px 10px;
+  height: 200px;
+  width: 100%;
+  font-size: 30px;
+}
